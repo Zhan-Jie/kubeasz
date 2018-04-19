@@ -5,7 +5,8 @@
 
 # 集群节点的公共配置任务
 - hosts:
-  - kube-cluster
+  - kube-master
+  - kube-node
   - deploy
   - etcd
   - lb
@@ -14,6 +15,5 @@
 
 # [可选]多master部署时的负载均衡配置
 - hosts: lb
-  gather_facts: True
   roles:
   - lb

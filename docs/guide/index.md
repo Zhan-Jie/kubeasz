@@ -6,7 +6,7 @@
 - 安装 [dashboard](dashboard.md)
 - 安装 [heapster](heapster.md)
 - 安装 [ingress](ingress.md)
-- 安装 efk
+- 安装 [efk](efk.md)
 - 安装 [harbor](harbor.md)
 
 ### 基础特性演示
@@ -18,9 +18,9 @@
 
 - 集群状态检查
 - 集群扩容
-  - node 节点扩容
-  - master 节点扩容
-  - etcd 集群扩容
+  - [node 节点新增](op/AddNode.md)
+  - [master 节点新增](op/AddMaster.md)
+  - etcd 集群新增
 - 清理集群
 
 ### 应用实践
